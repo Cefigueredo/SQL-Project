@@ -1,0 +1,29 @@
+{
+	"title": "Nombres de las tablas de Vacuandes Uniandes para la aplicación A",
+	"unidadPersistencia": "Vacuandes",
+	"tablas":
+	[
+		"Vacuandes_sequence",
+		"VENCIMIENTO_DOSIS",
+		"VACUNA",
+		"VACUNACION",
+		"NUMERO_DOSIS_VACUNA",
+		"RESTRICCIONES",
+		"ETAPA",
+		"OFICINA_EPS_REGIONAL",
+		"FUNCIONARIOS",
+		"DOSIS",
+		"PROFESION",
+		"ESTADO_DE_SALUD",
+		"PUNTO_VACUNACION",
+		"CONTRASENA_FUNCIONARIOS",
+		"ADMIN_PLAN_VACUNACION",
+		"ADMIN_EPS",
+		"ADMIN_PUNTO_VACUNACION",
+		"OPERADOR_PUNTO_VACUNACION",
+		"CIUDADANOS",
+		"CITAS",
+		"ESTADO_PROCESO"
+		
+	]
+}

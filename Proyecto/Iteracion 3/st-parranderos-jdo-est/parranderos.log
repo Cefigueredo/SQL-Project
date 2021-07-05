@@ -1,0 +1,325 @@
+<<<<<<< HEAD
+20:21:10,668 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:21:10,669 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+20:21:10,724 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:19:47,945 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:19:47,947 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:19:47,973 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+=======
+07:39:33,951 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+07:39:33,952 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+07:39:33,996 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+07:40:04,563 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando Vacunacion: 30000000
+07:40:05,190 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando Vacunacion: uniandes.isis2304.parranderos.negocio.Vacunacion@363168a1
+21:05:59,716 (main) INFO  [uniandes.isis2304.parranderos.test.VacunacionTest] - Probando la restricción de UNICIDAD del id de vacunacion
+21:05:59,913 (main) INFO  [uniandes.isis2304.parranderos.test.VacunacionTest] - Se encontró un archivo de configuración de tablas válido
+21:06:02,795 (main) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion
+21:09:08,286 (main) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Limpiando la BD de Vacuandes
+21:09:09,998 (main) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM VENCIMIENTO_DOSIS".
+ORA-02292: restricción de integridad (ISIS2304C18202110.FK_D_LOTE) violada - registro secundario encontrado
+
+21:09:10,222 (main) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Limpiando la BD de Vacuandes: Listo!
+21:09:10,497 (main) INFO  [uniandes.isis2304.parranderos.test.VacunacionTest] - Probando las operaciones CRD sobre Vacunacion
+21:09:10,502 (main) INFO  [uniandes.isis2304.parranderos.test.VacunacionTest] - Se encontró un archivo de configuración de tablas válido
+21:09:12,254 (main) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion
+21:10:59,520 (main) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Limpiando la BD de Vacuandes
+21:11:00,429 (main) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM VENCIMIENTO_DOSIS".
+ORA-02292: restricción de integridad (ISIS2304C18202110.FK_D_LOTE) violada - registro secundario encontrado
+
+21:11:00,609 (main) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Limpiando la BD de Vacuandes: Listo!
+21:11:00,736 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario correctos, pero sin crear el esquema
+21:11:00,737 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:11:00,875 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba de tabla inexistente incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+21:11:00,876 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOUserException: PersistenceManagerFactory debe usar "persistence-unit" con nombre "Parranderos" pero no hay ninguna con ese nombre
+21:11:00,877 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con una base de datos que no existe
+21:11:00,893 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:11:43,335 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+21:11:43,335 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: Error de E/S: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: Error de E/S: The Network Adapter could not establish the connection
+21:11:43,349 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario incorrectos
+21:11:43,363 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:12:25,503 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+21:12:25,503 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: Error de E/S: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: Error de E/S: The Network Adapter could not establish the connection
+21:12:25,504 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos válidos (BD, credenciales, esquema
+21:12:25,504 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:12:26,792 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Conexión realizada correstamente
+21:12:26,792 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Cerrando la conexión
+21:12:26,864 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Conexión cerrada
+21:43:36,622 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:43:36,623 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:44:30,803 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:44:30,804 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:44:30,805 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:47:51,046 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:47:51,047 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:47:51,048 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:49:20,900 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:49:20,901 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:49:20,903 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:50:08,222 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:50:08,223 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:50:08,223 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:51:17,915 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:51:17,916 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:51:17,917 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:52:48,251 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:52:48,253 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:52:48,254 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:57:31,387 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:57:31,388 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:57:31,389 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:01:26,520 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:01:26,521 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:01:26,522 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:04:14,451 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:04:14,452 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:04:14,453 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:06:27,480 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:06:27,482 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:06:27,484 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:08:03,936 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:08:03,938 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:08:03,940 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:09:54,087 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:09:54,089 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:09:54,090 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:13:00,645 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:13:00,646 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:13:00,647 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:20:46,908 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:20:46,909 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:20:46,911 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:15:19,451 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:15:19,472 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:15:19,482 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:15:36,106 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:15:36,107 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:15:36,108 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:17:45,498 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:17:45,517 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:17:45,519 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:19:19,481 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:19:19,483 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:19:19,484 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:23:14,735 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:23:14,736 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:23:14,736 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:23:27,193 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:23:27,194 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:23:27,195 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:25:56,247 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:25:56,248 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:25:56,249 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:29:26,405 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:29:26,407 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:29:26,408 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:30:50,956 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:30:50,957 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:30:50,958 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+>>>>>>> bef72bcb03d0f2baa836960422b9e603b14cd6c4
+21:23:26,774 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:23:26,779 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:23:26,780 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:27:11,365 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:27:11,378 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:27:11,381 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:28:13,483 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:28:13,484 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:28:13,485 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:31:56,708 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:31:56,711 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:31:56,713 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:34:07,951 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:34:07,953 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:34:07,954 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:36:46,124 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:36:46,126 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:36:46,127 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:37:06,143 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:37:06,148 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:37:06,149 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:37:19,408 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:37:19,411 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:37:19,413 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:37:45,897 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:37:45,902 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:37:45,903 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:39:19,579 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:39:19,585 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:39:19,586 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:40:19,890 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa Buena, por el Admin del Plan de Vacunación con correo: 
+21:40:19,898 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: Buena
+21:40:31,997 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+21:40:32,055 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: null
+21:40:32,056 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - La etapa fue creada
+21:42:47,574 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:42:47,575 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:42:47,577 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:43:28,404 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa beu, por el Admin del Plan de Vacunación con correo: null
+21:43:28,404 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: beu
+21:43:28,887 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+21:43:28,921 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: null
+21:43:28,921 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - La etapa fue creada
+21:47:16,781 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:47:16,783 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:47:16,785 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:47:35,593 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa Pancho, por el Admin del Plan de Vacunación con correo: bilbo@gmail.com
+21:47:35,594 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: Pancho
+21:47:35,978 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+21:47:36,023 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: null
+21:47:36,023 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - La etapa fue creada
+21:51:12,583 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:51:12,586 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:51:12,588 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:51:34,506 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:51:34,508 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:51:34,510 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:52:11,344 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:52:11,349 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:52:11,350 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:56:36,326 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:56:36,614 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:56:36,616 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:00:37,113 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa NN, por el Admin del Plan de Vacunación con correo: bilbo@gmail.com
+22:00:37,117 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: NN
+22:00:37,532 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+22:00:37,571 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: null
+22:00:37,572 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - La etapa fue creada
+22:01:45,529 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:01:45,531 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:01:45,532 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:02:20,417 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa NN, por el Admin del Plan de Vacunación con correo: amanda@gmail.com
+22:02:20,417 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: NN
+22:02:20,781 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+22:02:20,824 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: null
+22:02:20,824 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - La etapa fue creada
+22:08:45,808 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion
+22:09:36,941 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:09:36,946 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:09:36,947 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:09:46,817 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion
+22:11:15,100 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:11:15,116 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:11:15,117 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:11:39,848 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion
+22:12:01,295 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:12:01,301 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:12:01,302 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:12:19,624 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion
+22:15:15,000 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:15:15,027 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:15:15,028 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:15:28,016 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion
+22:16:52,820 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:16:52,822 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:16:52,824 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:17:05,584 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion
+22:17:21,740 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion: 11 existentes
+22:18:10,910 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion
+22:18:11,733 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion: 11 existentes
+22:18:44,614 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:18:44,616 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:18:44,617 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:18:50,470 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion
+22:18:51,334 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Generando los VO de Vacunacion: 11 existentes
+22:19:52,666 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:19:52,671 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+22:19:52,672 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:20:09,301 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa dd, por el Admin del Plan de Vacunación con correo: amanda@gmail.com
+22:20:09,302 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: dd
+22:20:09,716 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+22:20:09,776 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: null
+22:20:09,777 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - La etapa fue creada
+16:54:30,441 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:54:30,455 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:54:30,456 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:57:39,388 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa qqqq, por el Admin del Plan de Vacunación con correo: q
+16:57:43,519 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: qqqq
+16:59:31,048 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+17:00:25,277 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:00:25,278 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:00:25,279 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:01:17,339 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa asdfghj, por el Admin del Plan de Vacunación con correo: a
+17:01:27,029 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: asdfghj
+17:03:14,469 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+17:04:12,936 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: null
+17:05:19,824 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa asdfghj, por el Admin del Plan de Vacunación con correo: a
+17:05:20,280 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: asdfghj
+17:05:20,620 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+17:05:20,681 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: null
+17:05:21,697 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - La etapa fue creada
+17:10:11,948 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa q, por el Admin del Plan de Vacunación con correo: a
+17:10:22,261 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: q
+17:10:22,740 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (6, 6, 'Hola', 10, 15, 1)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+17:10:22,811 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: null
+17:10:25,825 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - La etapa fue creada
+17:10:47,253 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:10:47,254 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:10:47,255 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:11:55,857 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa aaa, por el Admin del Plan de Vacunación con correo: 1
+17:12:01,750 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: aaa
+17:12:34,138 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (6, 6, 'Hola', 10, 15, 1)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+17:12:34,186 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: null
+17:12:34,187 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - La etapa fue creada
+17:20:02,248 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:20:02,268 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:20:02,269 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:20:22,003 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:20:22,005 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:20:22,006 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:20:51,597 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:20:51,600 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:20:51,602 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:21:40,662 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa q, por el Admin del Plan de Vacunación con correo: null
+17:21:49,434 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: q
+17:22:32,064 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaVacuandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ETAPA(id, fase, descripcion, edad_Minima, edad_Maxima, idVacuacion) values (6, 6, 'Hola', 17, 17, 1)".
+ORA-00904: "IDVACUACION": identificador no válido
+
+17:24:23,043 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: null
+17:24:23,044 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - La etapa fue creada
+17:24:42,711 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa ww, por el Admin del Plan de Vacunación con correo: null
+17:24:46,294 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: ww
+17:28:15,890 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:28:15,892 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:28:15,894 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:29:33,843 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Creando una etapa adios, por el Admin del Plan de Vacunación con correo: q
+17:29:37,624 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: adios
+17:30:32,167 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - Adicionando etapa: uniandes.isis2304.parranderos.negocio.Etapa@33cfab27
+17:30:32,168 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Vacuandes] - La etapa fue creada
+15:40:28,633 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:40:28,635 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+15:40:28,647 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:46:10,821 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:46:10,822 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+15:46:10,824 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:55:56,905 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+18:55:56,924 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+18:55:56,927 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:56:19,168 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Interfaz
+18:56:19,169 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se aplica configuración indicada en el archivo de configuración
+18:56:19,171 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazVacuandesApp] - Se encontró un archivo de configuración válido: Tablas BD

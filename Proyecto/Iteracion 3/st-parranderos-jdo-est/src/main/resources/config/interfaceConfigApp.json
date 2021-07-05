@@ -1,0 +1,194 @@
+{
+	"title": "Aplicación transaccional de Vacuandes Uniandes",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBarCiudadano":
+	[
+		{ "menuTitle": "Añadir...",
+		  "options":
+			[
+				{
+					"label": "Etapa del plan de vacunación",
+					"event": "registrarCondicionesDePriorizacion"
+				}
+			]
+		},
+		{ "menuTitle": "Vacuandes",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarVacunacion"
+				},
+				{
+					"label": "Listar",
+					"event": "listarVacunacion"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarVacunacionPorId"
+				}
+			]
+		},
+		{ "menuTitle": "Mantenimiento",
+		  "options":
+			[
+				{
+					"label": "Mostrar log Vacuandes",
+					"event": "mostrarLogVacuandes"
+				},
+				{
+					"label": "Mostrar log datanucleus",
+					"event": "mostrarLogDatanuecleus"
+				},
+				{
+					"label": "Limpiar log de Vacuandes",
+					"event": "limpiarLogVacuandes"
+				},
+				{
+					"label": "Limpiar log de datanucleus",
+					"event": "limpiarLogDatanucleus"
+				},
+				{
+					"label": "Limpiar Base de Datos",
+					"event": "limpiarBD"
+				}
+			]
+		},		
+		{ "menuTitle": "Documentación",
+		  "options":
+			[
+				{
+					"label": "Presentación general",
+					"event": "mostrarPresentacionGeneral"
+				},
+				{
+					"label": "Modelo conceptual",
+					"event": "mostrarModeloConceptual"
+				},
+				{
+					"label": "Esquema de la BD",
+					"event": "mostrarEsquemaBD"
+				},
+				{
+					"label": "Script creación de la BD",
+					"event": "mostrarScriptBD"
+				},
+				{
+					"label": "Arquitectura de referencia",
+					"event": "mostrarArqRef"
+				},
+				{
+					"label": "Javadoc Parranderos",
+					"event": "mostrarJavadoc"
+				}
+			]
+		},		
+		{ "menuTitle": "Acerca de ...",
+		  "options":
+			[
+				{
+					"label": "Acerca de ...",
+					"event": "acercaDe"
+				}
+			]
+		}		
+		
+	],
+	"menuBarAdminPlan":
+	[
+		{ "menuTitle": "Añadir...",
+		  "options":
+			[
+				{
+					"label": "Etapa del plan de vacunación",
+					"event": "registrarCondicionesDePriorizacion"
+				}
+			]
+		},
+		{ "menuTitle": "Vacuandes",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarVacunacion"
+				},
+				{
+					"label": "Listar",
+					"event": "listarVacunacion"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarVacunacionPorId"
+				}
+			]
+		},
+		{ "menuTitle": "Mantenimiento",
+		  "options":
+			[
+				{
+					"label": "Mostrar log Vacuandes",
+					"event": "mostrarLogVacuandes"
+				},
+				{
+					"label": "Mostrar log datanucleus",
+					"event": "mostrarLogDatanuecleus"
+				},
+				{
+					"label": "Limpiar log de Vacuandes",
+					"event": "limpiarLogVacuandes"
+				},
+				{
+					"label": "Limpiar log de datanucleus",
+					"event": "limpiarLogDatanucleus"
+				},
+				{
+					"label": "Limpiar Base de Datos",
+					"event": "limpiarBD"
+				}
+			]
+		},		
+		{ "menuTitle": "Documentación",
+		  "options":
+			[
+				{
+					"label": "Presentación general",
+					"event": "mostrarPresentacionGeneral"
+				},
+				{
+					"label": "Modelo conceptual",
+					"event": "mostrarModeloConceptual"
+				},
+				{
+					"label": "Esquema de la BD",
+					"event": "mostrarEsquemaBD"
+				},
+				{
+					"label": "Script creación de la BD",
+					"event": "mostrarScriptBD"
+				},
+				{
+					"label": "Arquitectura de referencia",
+					"event": "mostrarArqRef"
+				},
+				{
+					"label": "Javadoc Parranderos",
+					"event": "mostrarJavadoc"
+				}
+			]
+		},		
+		{ "menuTitle": "Acerca de ...",
+		  "options":
+			[
+				{
+					"label": "Acerca de ...",
+					"event": "acercaDe"
+				}
+			]
+		}		
+		
+	]
+	
+}
+	

@@ -1,0 +1,28 @@
+{
+	"title": "Nombres de las tablas de Vacuandes Uniandes para pruebas de la aplicación cuando la base de datos no existe o está caida",
+	"unidadPersistencia": "VacuandesErrorUser",
+	"tablas":
+	[
+		"Vacuandes_sequence",
+		"X_VACUANDES",
+		"X_CIUDADANO",
+		"X_ETAPA",
+		"X_PROFESION",
+		"X_ESTADO_DE_SALUD",
+		"X_OFICINA_EPS_REGIONAL",
+		"X_PUNTO_VACUNACION",
+		"X_DOSIS",
+		"X_VENCIMIENTO_DOSIS",
+		"X_VACUNA",
+		"X_NUMERO_DOSIS_VACUNA",
+		"X_RESTRICCION",
+		"X_CITA",
+		"X_FUNCIONARIO",
+		"X_CONTRASENA_FUNCIONARIO",
+		"X_ADMIN_PLAN_VACUNACION",
+		"X_ADMIN_EPS",
+		"X_ADMIN_PUNTO_VACUNACION",
+		"X_OPERADOR_PUNTO_VACUNACION",
+		"X_ESTADO_PROCESO"
+	]
+}

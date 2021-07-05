@@ -1,0 +1,13 @@
+--@Author ce.figueredo@uniandes.edu.co
+--@Author jm.rivera@uniandes.edu.co
+--Punto 1 Calentamiento
+SELECT CIUDAD_NO, presupuesto, COUNT(presupuesto) AS CANTIDAD
+FROM (SELECT bares.id, bares.nombre, bares.presupuesto, bares.cant_sedes, 
+        CASE WHEN bares.ciudad = 'Bogotá' THEN 'Bogota'
+            WHEN bares.ciudad = 'Medellín' THEN 'Medellin'
+            ELSE bares.ciudad
+        END AS CIUDAD_NO
+    FROM bares)BAR_NO
+WHERE NOT presupuesto = 'Medio'
+GROUP BY CIUDAD_NO, presupuesto
+ORDER BY CIUDAD_NO;

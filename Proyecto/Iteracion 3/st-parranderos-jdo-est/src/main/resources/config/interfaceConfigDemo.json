@@ -1,0 +1,153 @@
+{
+	"title": "Demostración de Vacuandes Uniandes",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Vacuandes",
+		  "options":
+			[
+				{
+					"label": "CRD de Vacuandes",
+					"event": "demoVacuandes"
+				}
+			]
+		},		
+		{ "menuTitle": "Ciudadano",
+		  "options":
+			[
+				{
+					"label": "CRD Ciudadano",
+					"event": "demoCiudadano"
+				},
+				{
+					"label": "Eliminar Ciudadano",
+					"event": "demoEliminarCiudadano"
+				}
+			]
+		},
+		{ "menuTitle": "Etapa",
+		  "options":
+			[
+				{
+					"label": "CRD Etapa",
+					"event": "demoEtapa"
+				}
+				
+			]
+		},
+		{ "menuTitle": "Profesion",
+		  "options":
+			[
+				{
+					"label": "CRD Profesion",
+					"event": "demoProfesion"
+				},
+				{
+					"label": "Cambiar Profesion",
+					"event": "demoCambiarProfesion"
+				},
+				{
+					"label": "Dar Profesion Completo",
+					"event": "demoDarProfesionCompleto"
+				},
+				{
+					"label": "* Eliminar Profesion",
+					"event": "demoEliminarProfesion"
+				}
+			]
+		},
+		{ "menuTitle": "EstadoDeSalud",
+		  "options":
+			[
+				{
+					"label": "CRD EstadoDeSalud",
+					"event": "demoEstadoDeSalud"
+				}
+			]
+		},
+		{ "menuTitle": "OficinaEPSRegional",
+		  "options":
+			[
+				{
+					"label": "CRD OficinaEPSRegional",
+					"event": "demoOficinaEPSRegional"
+				}
+			]
+		},
+		{ "menuTitle": "Visitan",
+		  "options":
+			[
+				{
+					"label": "CRD Visitan",
+					"event": "demoVisitan"
+				}			
+			]
+		},
+		{ "menuTitle": "Mantenimiento",
+		  "options":
+			[
+				{
+					"label": "Mostrar log Vacuandes",
+					"event": "mostrarLogVacuandes"
+				},
+				{
+					"label": "Mostrar log datanucleus",
+					"event": "mostrarLogDatanuecleus"
+				},
+				{
+					"label": "Limpiar log de Vacuandes",
+					"event": "limpiarLogVacuandes"
+				},
+				{
+					"label": "Limpiar log de datanucleus",
+					"event": "limpiarLogDatanucleus"
+				},
+				{
+					"label": "Limpiar Base de Datos",
+					"event": "limpiarBD"
+				}
+			]
+		},		
+		{ "menuTitle": "Documentación",
+		  "options":
+			[
+				{
+					"label": "Presentación general",
+					"event": "mostrarPresentacionGeneral"
+				},
+				{
+					"label": "Modelo conceptual",
+					"event": "mostrarModeloConceptual"
+				},
+				{
+					"label": "Esquema de la BD",
+					"event": "mostrarEsquemaBD"
+				},
+				{
+					"label": "Script creación de la BD",
+					"event": "mostrarScriptBD"
+				},
+				{
+					"label": "Arquitectura de referencia",
+					"event": "mostrarArqRef"
+				},
+				{
+					"label": "Javadoc Vacuandes",
+					"event": "mostrarJavadoc"
+				}
+			]
+		},		
+		{ "menuTitle": "Acerca de ...",
+		  "options":
+			[
+				{
+					"label": "Acerca de ...",
+					"event": "acercaDe"
+				}
+			]
+		}		
+	]
+}
+	
